@@ -1,0 +1,94 @@
+@media screen and (max-width:900px){
+    .container h1{
+        font-size: 45px;
+    }
+    .bttn{
+        display: none;
+    }
+    .right{
+        width: auto;
+    }
+    .toogle-menu{
+        right: 5px;
+    } /*---------------------- home page end ----------------------- */
+
+    .about-content{
+        flex-basis: 94%;
+    }
+    .about-image{
+        flex-basis: 94%;
+        margin-top: 20px;
+    }
+    .about-image img{
+        border-radius: 25px;
+    }
+}
+
+@media  screen and (max-width:400px) {
+    .left img{
+        width: 180px;
+    }
+    .container h1{
+        font-size: 35px;
+    }
+    .container p{
+        font-size: 13px;
+    }
+    .container button{
+        padding: 10px 25px;
+    }
+    .about-content .article p{
+        text-align: center;
+    }
+     /*---------------------- home page end ----------------------- */
+    
+    .about-tab .button span{
+        padding: 7px 13px;
+        background-color:#0f23ff ;
+        border-radius: 3px;
+        font-size: 12px;
+        color: white;
+        cursor: pointer;
+        font-weight: 500;
+        transition: .5s;
+    }
+}
+ /*---------------------- contact page end ----------------------- */
+
+ @media screen and (max-width:950px) {
+    .contact-img{
+        flex-basis: 98%;
+    }
+    .contact-form{
+        flex-basis: 98%;
+    }
+    .nm-ml{
+        row-gap: 10px;
+    }
+ }
+
+ @media screen and (max-width:530px){
+
+    .nm-ml input{
+        flex-basis: 97%;
+    }
+ }
+
+  /*---------------------- footer page end ----------------------- */
+
+  @media screen and (max-width:700px)and (min-width:290px){
+    .footer-1{
+        flex-basis: 95%;
+    }
+    .footer-2{
+        flex-basis: 95%;
+    }
+    .footer-p{
+        flex-basis: 40%;
+    }
+    .footer-h4{
+        flex-basis: 60% ;
+        text-align: center;
+        margin-left: 10px;
+    }
+  }
